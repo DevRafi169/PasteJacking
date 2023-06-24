@@ -1,6 +1,6 @@
 # Pastejacking with JavaScript
 
-![Pastejacking Illustration](pastejacking_illustration.png)
+![Pastejacking Illustration](u.jpg)
 
 ## Overview
 
