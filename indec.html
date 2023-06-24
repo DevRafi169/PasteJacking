@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Pastejacking – the art of changing what you copy.It takes me little javascript to change the copied text.You are welcomed to try it💙🧡💚.">
+<meta property="og:image" content="u.jpg">
+<style>
+
+p {
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 200%;
+    text-align: justify;
+    font-family: sans-serif;
+color:white;
+z-index:5;
+}
+h1{
+font-family:san-serif;
+margin-top:40px;
+margin-bottom:48px;
+color:white;
+font-size:40px;
+font-weight:20px;
+text-align:center;
+z-index:5;
+} 
+</style>
+<title>PasteJacking</title>
+
+
+        <meta name="theme-color" content="#0083B0" >
+      
+
+
+
+</head>
+
+  
+
+      <body style="background: linear-gradient(90deg, #00B4DB, #0083B0 )">
+
+
+
+ <center>
+
+<h1>PasteJacking</h1>
+</center>
+<p> Hello World.I am Tanzim Khan Rafi.This is an example of pastejacing.If you try to copy anything from my Text I can change it with javascript.You can try it now!!Just copy any text/word from here and paste it anywhere.You will see that your copied text has been changed.Try it!! 
+!!
+</p><br>
+<br>
+<p>এই webpage থেকে যেকোন কিছু copy করুন এবং যেকোন জায়গায় Paste করুন। 
+
+
+<script type="text/javascript">
+document.addEventListener('copy', function(e){
+e.clipboardData.setData('text/plain', 'I have changed your copied text with javascript 😈. ');
+e.preventDefault();
+});
+</script>
+
+</body>
+</html>
