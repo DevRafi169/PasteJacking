@@ -9,7 +9,8 @@ Pastejacking is a technique that involves manipulating clipboard data using Java
 ## How It Works
 
 When a user copies content to their clipboard, JavaScript code can intercept the paste event and modify the clipboard data before it is pasted. This manipulation can include injecting additional code or altering the intended content.
-
+![JavaScript Illustration](js.png)
+These small codes change the data you copy!!!! 
 ## Potential Risks
 
 - **Code Injection**: Attackers can use pastejacking to inject malicious code into a user's clipboard, which can execute when pasted into vulnerable applications or websites.
